@@ -10697,6 +10697,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Meistelman 1987 children|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Meistelman 1987 - mean child - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=8)"
+        }
+      ],
       "Population": "Meistelman 1987 Children",
       "Compounds": [
         {
@@ -10923,6 +10930,13 @@
       ],
       "OutputSelections": [
         "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "den Holländer 1992 ind 3|Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
+          "ObservedData": "den Hollander 1992 - I3 - Alfentanil - IV - 1.7 mg - Arterial Plasma - indiv."
+        }
       ],
       "Individual": "den Holländer 1992 ind3 female 0.99y 8.5kg",
       "Compounds": [
